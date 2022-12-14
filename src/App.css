@@ -4,25 +4,43 @@ body{
 
 .App {
   text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+input{
+  margin-bottom: 20px;
+  width: 20%;
 
-.animes-list{
-  display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(200px, 1fr));
+}
+
+.animes-list ul{
   list-style: none;
-  grid-gap: 1.5rem;
+  display: grid;
+  grid-column: 1fr 1fr 2fr;
+  grid-gap: 1rem;
   color: aliceblue;
 
 }
 
 .animes-list li{
-  display: flex;
-  flex-direction: column;
+  font-weight: bold;
+  font-size: 3em;
+  width: 80vw;
+  margin: auto;
+  list-style: none;
+  
 }
 
 .animes-list img{
   width: 20vw;
-  margin: auto;
+  margin-right: 30vw;
   border: solid 2px #5188f6;
+}
+
+.animes-list span{
+  color: #5188f6;
+  font-size: .2em;
 }

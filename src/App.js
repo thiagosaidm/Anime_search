@@ -37,11 +37,13 @@ function App() {
               <li key={anime.id}>
                 <img src={anime.attributes.posterImage.small} alt={anime.attributes.canonicalTitle}/>
                 {anime.attributes.canonicalTitle}
+                <span>{anime.attributes.synopsis}</span>
               </li>
             ))}
           </ul>
+          
         )}
-        
+
     </div>
   );
 }
