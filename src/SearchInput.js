@@ -13,7 +13,7 @@ const SearchInput = ({value, onChange}) =>{
     return(
         <input type="search" 
         value={displayValue} 
-        onChange={escreveuTexto}/>
+        onChange={escreveuTexto} placeholder="Search your favorite anime!"/>
     )
 
 }

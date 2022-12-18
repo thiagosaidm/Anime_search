@@ -1,3 +1,10 @@
+body {
+  background: linear-gradient(3deg, rgba(195, 34, 159, 1) 0%, rgba(253, 195, 45, 1) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
   margin: auto;
@@ -6,44 +13,68 @@
   align-items: center;
 }
 
-input {
-  margin-bottom: 15px;
-  width: 20%;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(20, 20, 20);
+  color: aliceblue;
+  width: 100%;
 }
 
-.animes-list{
+input {
+  padding: 1em;
+  text-align: center;
+  max-height: 2em;
+  width: 30%;
+  border: 2px solid #e6eaf3;
+  background-color: rgb(20, 20, 20);
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+input:focus {
+  outline: none;
+}
+
+
+.animes-list {
   display: flex;
   padding: 3em;
-  margin-left: 25%;
+  margin-left: 5%;
 }
-
-/*Tittle */
 
 .title {
   display: flex;
   font-weight: bold;
   font-size: 1.5rem;
-  max-width: 50vw;
+  max-width: 30vw;
   text-align: left;
-
+  border: 2px solid rgba(20, 20, 20, 0.211);
+  margin-bottom: 1em;
+  background: rgb(20, 20, 20);
+  color: aliceblue;
+  padding: 2%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
 }
-
-/* Anime Poster */
 
 .animes-list img {
   width: 20vw;
   max-height: 75vh;
   margin-right: 1vw;
-  border: solid 3px #5188f6;
-  
+  border: 2px solid black;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
 }
 
-
-/*Anime Synopsis */
-
-.sinop{
+.sinop {
   display: flex;
   text-align: left;
-  max-width: 50%;
-  font-size: .7em;
+  max-width: 30vw;
+  font-size: 0.7em;
+  border: 2px solid black;
+  background: rgb(20, 20, 20);
+  color: aliceblue;
+  padding: 5%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
 }
