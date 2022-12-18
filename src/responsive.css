@@ -1,0 +1,188 @@
+@media (max-width: 700px) {
+    .title {
+        display: flex;
+        font-weight: bold;
+        font-size: 1.5em;
+        max-width: 75%;
+        text-align: left;
+        border: 2px solid rgba(20, 20, 20, 0.211);
+        margin-bottom: .5em;
+        background: rgb(20, 20, 20);
+        color: aliceblue;
+        padding: 2%;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .animes-list img {
+        width: 30vw;
+        max-height: 75vh;
+        margin-right: 1vw;
+        border: 2px solid black;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .sinop {
+        max-height: 40%;
+        max-width: 80%;
+        box-sizing: border-box;
+        font-size: .5em;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .animes-list {
+        padding: 1em;
+
+    }
+
+    .title {
+        display: flex;
+        font-weight: bold;
+        font-size: 1.5em;
+        max-width: 100%;
+        text-align: left;
+        border: 2px solid rgba(20, 20, 20, 0.211);
+        margin-bottom: .5em;
+        background: rgb(20, 20, 20);
+        color: aliceblue;
+        padding: 2%;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .animes-list img {
+        width: 30vw;
+        max-height: 75vh;
+        margin-right: 1vw;
+        border: 2px solid black;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .sinop {
+        max-height: 40%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: .5em;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .title {
+        display: flex;
+        font-weight: bold;
+        font-size: 1.5em;
+        max-width: 100%;
+        text-align: left;
+        border: 2px solid rgba(20, 20, 20, 0.211);
+        margin-bottom: .5em;
+        background: rgb(20, 20, 20);
+        color: aliceblue;
+        padding: 2%;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .animes-list img {
+        width: 40vw;
+        max-height: 75vh;
+        margin-right: 1vw;
+        border: 2px solid black;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .sinop {
+        max-height: 40%;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: .5em;
+    }
+
+
+}
+
+
+@media (max-width: 350px) {
+    body{
+        height: 100%;
+       
+       
+    }
+    
+    .app {
+
+        flex-direction: column;
+        
+    }
+
+    .animes-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+        grid-template-areas: "title title title"
+            "sinop sinop sinop"
+            "img img img";
+
+       margin-left: 1%;
+    }
+
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+
+    input{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1em;
+        
+    }
+
+    td {
+        display: inline;
+    }
+
+    .title {
+        grid-area: title;
+
+        font-weight: bold;
+        font-size: 1.5em;
+        max-width: 100%;
+        text-align: left;
+        border: 2px solid rgba(20, 20, 20, 0.211);
+        margin-bottom: .3em;
+        background: rgb(20, 20, 20);
+        color: aliceblue;
+        padding: 2%;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .animes-list img {
+
+        grid-area: img;
+        width: 70%;
+        margin-left: .1em;
+        margin-bottom: .2em;
+        border: 2px solid black;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.424);
+    }
+
+    .sinop {
+        grid-area: sinop;
+        max-width: 100%;
+        box-sizing: border-box;
+        font-size: .6em;
+    }
+}

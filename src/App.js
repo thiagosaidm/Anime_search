@@ -1,5 +1,6 @@
 
 import './App.css';
+import './responsive.css';
 import SearchInput from './SearchInput';
 import { useEffect, useState } from 'react';
 
