@@ -124,6 +124,7 @@
 @media (max-width: 450px) {
     body{
         height: 100%;
+        overflow: hidden;
        
        
     }
