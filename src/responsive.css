@@ -36,14 +36,14 @@
 @media (max-width: 500px) {
     body{
         height: 100%;
-        overflow: hidden;
+       
        
        
     }
     
     .app {
         
-        height: 100vh;
+        height: 80vh;
         flex-direction: column;
         
     }
