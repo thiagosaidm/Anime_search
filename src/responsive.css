@@ -106,7 +106,7 @@
     .animes-list img {
 
         grid-area: img;
-        width: 50%;
+        width: 70%;
         margin-left: .1em;
         margin-bottom: .2em;
         border: 2px solid black;
